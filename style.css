@@ -1,0 +1,84 @@
+/*
+Theme Name: Main Street Mobile (MSM) Theme Reset styles
+Author: the MSM Team: Brad Robertson, Dana Coester, Matt Carson
+
+YUI 3.4.1 (build 4118)
+Copyright 2011 Yahoo! Inc. All rights reserved.
+Licensed under the BSD License.
+http://yuilibrary.com/license/
+*/
+html{color:#000;background:#FFF}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0}table{border-collapse:collapse;border-spacing:0}fieldset,img{border:0}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal}ol,ul{list-style:none}caption,th{text-align:left}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}q:before,q:after{content:''}abbr,acronym{border:0;font-variant:normal}sup{vertical-align:text-top}sub{vertical-align:text-bottom}input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit}input,textarea,select{*font-size:100%}legend{color:#000}
+
+/*********************************************   
+
+CATEGORY ICON IMAGES
+
+To assign images to each of the category buttons
+or sidebar links on the tablet, find the category
+number (category-#) by inspecting the link/viewing
+the page source and finding the links in question.
+
+
+*********************************************/
+
+/* Buy Local */
+#chickletNav ul li a.category-16 span.img, 
+#sideColNav.catNav ul li a.category-16 span.img {
+	background-image: url('images/icons/buy-local.jpg');
+}
+/* Eat Local */
+#chickletNav ul li a.category-17 span.img, 
+#sideColNav.catNav ul li a.category-17 span.img {
+	background-image: url('images/icons/eat-local.jpg');
+}
+/* Events */
+#chickletNav ul li a.category-19 span.img, 
+#sideColNav.catNav ul li a.category-19 span.img {
+	background-image: url('images/icons/events.jpg');
+}
+/* Live Local */
+#chickletNav ul li a.category-18 span.img, 
+#sideColNav.catNav ul li a.category-18 span.img {
+	background-image: url('images/icons/live-local.jpg');
+}
+/* Hand Craft */
+#chickletNav ul li a.category-20 span.img, 
+#sideColNav.catNav ul li a.category-20 span.img {
+	background-image: url('images/icons/hand-craft.jpg');
+}
+/* Music */
+#chickletNav ul li a.category-21 span.img, 
+#sideColNav.catNav ul li a.category-21 span.img {
+	background-image: url('images/icons/music.jpg');
+}
+/* Other */
+#chickletNav ul li a.category-7 span.img, 
+#sideColNav.catNav ul li a.category-7 span.img {
+	background-image: url('images/icons/other.jpg');
+}
+/* Play Local */
+#chickletNav ul li a.category-22 span.img, 
+#sideColNav.catNav ul li a.category-22 span.img {
+	background-image: url('images/icons/play-local.jpg');
+}
+/* Media */
+#chickletNav ul li a.category-23 span.img, 
+#sideColNav.catNav ul li a.category-23 span.img {
+	background-image: url('images/icons/media.jpg');
+}
+/* Weather */
+#chickletNav ul li a.category-24 span.img, 
+#sideColNav.catNav ul li a.category-24 span.img {
+	background-image: url('images/icons/weather.jpg');
+}
+/* Ski */
+#chickletNav ul li a.category-25 span.img, 
+#sideColNav.catNav ul li a.category-25 span.img {
+	background-image: url('images/icons/ski-local.jpg');
+}
+/* River */
+#chickletNav ul li a.category-26 span.img, 
+#sideColNav.catNav ul li a.category-26 span.img {
+	background-image: url('images/icons/river.jpg');
+}
+
